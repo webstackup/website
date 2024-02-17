@@ -6,7 +6,7 @@ import "./globals.css";
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
-  title: "WebStackup | Full Stack JavaScript development",
+  title: "Full Stack JavaScript development | WebStackup",
   description:
     "We focuses on Full Stack JavaScript development using TypeScript, React, Next.js and Node.js technologies",
   keywords: "TypeScript, React, Next.js, Node.js, Full Stack JavaScript",
