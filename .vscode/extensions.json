@@ -1,10 +1,14 @@
 {
   "recommendations": [
+    "steoates.autoimport",
     "formulahendry.auto-rename-tag",
     "dsznajder.es7-react-js-snippets",
     "dbaeumer.vscode-eslint",
     "esbenp.prettier-vscode",
+    "wix.vscode-import-cost",
     "bradlc.vscode-tailwindcss",
-    "sonarsource.sonarlint-vscode"
+    "clinyong.vscode-css-modules",
+    "sonarsource.sonarlint-vscode",
+    "vscode-icons-team.vscode-icons",
   ]
 }
