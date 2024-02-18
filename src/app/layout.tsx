@@ -8,8 +8,9 @@ const inter = Inter({ subsets: ["latin"] });
 export const metadata: Metadata = {
   title: "Full Stack JavaScript development | WebStackup",
   description:
-    "We focuses on Full Stack JavaScript development using TypeScript, React, Next.js and Node.js technologies",
-  keywords: "TypeScript, React, Next.js, Node.js, Full Stack JavaScript",
+    "We primarily specialize in Full Stack JavaScript development, adhering to web standards and best practices, utilizing modern web technologies to build and deliver high-quality solutions",
+  keywords:
+    "HTML, CSS, TypeScript, React, React Native, Next.js, Node.js, Full Stack JavaScript",
 };
 
 export default function RootLayout({

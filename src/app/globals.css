@@ -6,6 +6,9 @@
   --foreground-rgb: 0, 0, 0;
   --background-start-rgb: 255, 255, 255;
   --background-end-rgb: 183, 183, 183;
+  --primary-color: #f50;
+  --secondary-color: #f70;
+  --tertiary-color: #f90;
 }
 
 @media (prefers-color-scheme: dark) {
@@ -26,8 +29,23 @@ body {
     rgb(var(--background-start-rgb));
 }
 
-@layer utilities {
-  .text-balance {
-    text-wrap: balance;
+@layer base {
+  section {
+    @apply mx-auto flex min-h-screen flex-col items-center justify-start;
+  }
+  header {
+    @apply flex flex-col items-center justify-center gap-1 pt-20;
+  }
+  main {
+    @apply flex flex-col items-center justify-start pt-10;
+  }
+  article {
+    @apply flex max-w-3xl flex-col gap-4 px-2 text-center text-lg;
+  }
+  h1 {
+    @apply inline-block bg-gradient-to-b from-[var(--tertiary-color)] to-[var(--secondary-color)] bg-clip-text text-4xl text-transparent;
+  }
+  p {
+    @apply inline-block bg-gradient-to-b from-[rgb(var(--foreground-rgb))] to-[var(--primary-color)] bg-clip-text text-transparent;
   }
 }
